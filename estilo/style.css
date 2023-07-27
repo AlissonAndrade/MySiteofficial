@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+   background-image: linear-gradient(to bottom, aqua, white  ); 
+   background-repeat: no-repeat;
+   height: 100vh;
+   width: 100vw;
+}
+
+header {
+    font-size: 1.4em;
+    text-align: left;
+    margin-bottom: 80px;
+}
+
+main {
+    height: auto;
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.945);
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.808);
+    
+}
+
+main > div {
+    text-indent: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    display: inline;
+}
+
+main > div#fotos > a{
+    border: none;
+    
+}
+
+main > div#fotos >img, a > img {
+    height: 80px;
+    padding: 10px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    
+}
+
+main > div#fotos > img:hover, a > img:hover {
+    border: 1px solid rgba(0, 0, 0, 0.322);
+    cursor: pointer;
+}
+
+main > div#fotos > a:hover {
+    border: none;
+}
+
+div > a {
+    color: black;
+    text-decoration: none;
+    border: 1px dashed black;
+    padding: 5px;
+    
+}
+
+div > a:hover {
+    text-decoration: underline;
+    border: 1px dashed blue;
+    color: blue;
+    
+}
+
+div > p#email {
+    margin-top: 10px;
+}
+
+footer {
+    width: 368px;
+    text-align: center;
+    font-size: 1.1em;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+    padding: 2px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 4px white;
+    
+}
