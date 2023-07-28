@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    main {
+        height: auto;
+        width: 300px;
+    }
+    
+    main > div > img {
+        height: 50px;
+        padding: 5px;
+        display: inline-block;
+    }
+
+    footer {
+        width: 318px;
+    }
+}
