@@ -26,6 +26,10 @@
         font-size: .8em;
     }
 
+    main > div > p#email{
+        text-decoration: none;
+    }
+
     footer {
         width: 318px;
     }
