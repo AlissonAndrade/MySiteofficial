@@ -4,7 +4,7 @@ let t = document.getElementById('twtt')
 let g = document.getElementById('git')
 
 function Instagram () {
-    window.alert('Instagram...')
+    window.alert('Instagram: ali_renan_')
 }
 
 function Facebook () {
