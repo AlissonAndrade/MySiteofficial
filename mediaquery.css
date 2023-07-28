@@ -27,7 +27,7 @@
     }
 
     main > div > p#email{
-        text-align: left;
+        text-align: none;
         display: inline-block;
     }
 
