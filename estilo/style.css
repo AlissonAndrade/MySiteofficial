@@ -35,6 +35,7 @@ main > div {
     font-family: 'Times New Roman', Times, serif;
     font-size: 1.3em;
     display: inline;
+    text-align: justify;
 }
 
 main > div#fotos > a{
