@@ -27,7 +27,8 @@
     }
 
     main > div > p#email{
-        text-decoration: none;
+        text-align: left;
+        display: inline-block;
     }
 
     footer {
