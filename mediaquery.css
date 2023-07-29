@@ -27,7 +27,7 @@
     }
 
     main > div > p#email{
-        text-decoration-line: underline;
+        display: contents;
    
     }
 
