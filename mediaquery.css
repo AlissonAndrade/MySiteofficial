@@ -29,8 +29,12 @@
 
     main > div > p#email{
         display: contents;
-        margin-block: 5px;
-   
+        
+    }
+
+    main > div > a#pdf {
+        display: inline-block;
+    
     }
 
     footer {
